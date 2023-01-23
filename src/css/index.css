@@ -1,0 +1,72 @@
+#form{
+    margin: auto;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+
+#button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: antiquewhite;
+    width: 130px;
+    height: 25px;
+    padding: 0;
+    border-color: rgb(226, 212, 194);
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px 0px rgba(227,197,166,0.75);
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(227,197,166,0.75);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(227,197,166,0.75);
+    cursor: pointer;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+#forma{
+    border: 5px solid rgb(253, 210, 153);
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(255, 250, 244);
+    margin-bottom: 20px;
+}
+#forma select:nth-child(1){
+    width: 90%;
+}
+#aside{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: antiquewhite;
+    width: 130px;
+    height: 25px;
+    padding: 0;
+    border-color: rgb(226, 212, 194);
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px 0px rgba(227,197,166,0.75);
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(227,197,166,0.75);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(227,197,166,0.75);
+    cursor: pointer;
+}
+#aside:hover{
+    background-color: rgb(255, 206, 142);
+}
+#button:hover{
+    background-color:  rgb(255, 206, 142);
+}
+button:hover{
+    background-color:  rgb(255, 206, 142);
+    cursor: pointer;
+}
+#label{
+    font-family: sans-serif;
+    font-weight: bold;
+}
